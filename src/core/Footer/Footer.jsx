@@ -10,13 +10,13 @@ const Footer = () => {
       <div className="">
         <footer className="bg-[#A40000] text-white relative mt-45 ">
 
-          <div className="relative xl:bottom-1/2 xl:-translate-y-30 lg:bottom-35  lg:block hidden">
+          <div className="relative xl:bottom-1/2 xl:-translate-y-30 lg:bottom-35  lg:block hidden ">
             <div className="xl:max-w-[1450px]  md:max-w-[920px] mx-auto px-3">
               <div className="bg-white border-3 border-[#E52020] px-25 py-7  rounded-full">
                 <div className="flex flex-col gap-3 ">
                   <p className="text-[#E52020] roboto-slab-semibold text-2xl">Empower the Future with Computing, Data & Algorithms</p>
                   <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px]">Step into the forefront of innovation at the International Conference on Computing, Data Analytics, and Algorithms. This premier event brings together researchers, academicians, and industry leaders from across the globe to explore the latest breakthroughs in computing technologies, intelligent algorithms, and data-driven solutions.</p>
-                  <Link to="/paper-submission">
+                  <Link to="/paper-submission" className='flex justify-center'>
                     <div className="group flex gap-2 bg-gradient-to-r from-[#E52020] to-[#A40000] w-fit py-2 px-2 rounded-lg items-center ">
                       <button className="text-white roboto-slab-medium text-lg cursor-pointer">Register Here</button>
                       <TbCircleArrowRightFilled className="text-white text-2xl transform transition-all duration-300 -rotate-45 group-hover:rotate-45" />
@@ -31,13 +31,13 @@ const Footer = () => {
           <div className=" mx-auto px-5 max-w-[92rem]  lg:py-10 py-5 xl:-mt-25 lg:-mt-30 -mt-30">
             <div className="grid grid-cols-1  md:grid-cols-4 sm:grid-cols-2 md:gap-8 gap-4 ">
               <div className='text-center md:text-left flex flex-col justify-start items-start'>
-                {/* <Link to='/'>
+                <Link to='/'>
            
-              <img className='w-30 md:mx-0   mx-auto' src="/assets/images/Logo.png" alt="logo" />
-            </Link> */}
-                <Link to="/" className="text-white text-4xl hanuman-semibold">
+              <img className='w-40 md:mx-0   mx-auto' src="/assets/images/White.png" alt="logo" />
+            </Link>
+                {/* <Link to="/" className="text-white text-4xl hanuman-semibold">
                   ICCDAA
-                </Link>
+                </Link> */}
               </div>
               <div className='lg:mx-auto md:text-left text-start '>
                 <h4 className="lg:text-xl text-lg font-bold mb-2 ">Quick Links</h4>

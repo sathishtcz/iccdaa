@@ -25,7 +25,7 @@ export default function Scope() {
                 <p className="roboto-slab-semibold text-[#E52020] text-[20px] lg:text-[30px] mb-4 ">Defining Our Research Horizons</p>
                 <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">At the International Conference on Computing, Data Analytics, and Algorithms, our scope reaches far beyond traditional boundaries. We aim to create a collaborative space where cutting-edge computing technologies, advanced data analytics methods, and innovative algorithm designs converge. From foundational theories to real-world applications, we welcome diverse research that drives progress across industries and academia. By embracing emerging trends and fostering interdisciplinary dialogue, we strive to define the next horizons of digital intelligence and empower a smarter, data-driven future.
                 </p>
-                <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-25 gap-10 lg:mt-15 mt-10">
+                <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-15 gap-10 lg:mt-15 mt-10">
 
                     <div>
                         <div className="flex flex-col gap-3 ">

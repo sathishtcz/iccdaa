@@ -79,7 +79,7 @@ function Homepage() {
       {/* About the Conference */}
       <div className="bg-[#FFF4EF] lg:py-10 py-5">
         <div className="xl:max-w-[1450px]  md:max-w-[920px] mx-auto px-3 lg:mt-15 mt-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-25 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-15 gap-10">
             <div className=" lg:block hidden ">
               <div className="">
                 <img src="/assets/images/About.png" alt="Aboutimage" className='' />
@@ -151,7 +151,7 @@ function Homepage() {
 
       {/*Our scope */}
       <div className="xl:max-w-[1450px]  md:max-w-[920px] mx-auto px-3 lg:mt-15 mt-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-25 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-15 gap-10">
 
           <div>
             <div className="flex flex-col gap-3 ">
@@ -202,7 +202,7 @@ function Homepage() {
                   <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px]  ">Algorithm Design</p>
                 </div>
               </div>
-              <Link to="/about">
+              <Link to="/scope">
                 <div className="group flex gap-2 bg-gradient-to-r from-[#E52020] to-[#A40000] w-fit py-2 px-2 rounded-lg items-center ">
                   <button className="text-white roboto-slab-medium text-lg cursor-pointer">Read More</button>
                   <TbCircleArrowRightFilled className="text-white text-2xl transform transition-all duration-300 -rotate-45 group-hover:rotate-45" />

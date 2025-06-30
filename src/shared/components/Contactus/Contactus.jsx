@@ -120,7 +120,7 @@ export default function Contactus() {
 
 
                         <div className="lg:col-span-3">
-                            <p className="roboto-slab-semibold text-[#E52020] text-[20px] lg:text-[30px] mb-4 ">Send us a Message</p>
+                            <p className="roboto-slab-semibold text-[#E52020] text-[20px] lg:text-[30px] mb-4 text-center">Send us a Message</p>
                             <form onSubmit={handleSubmit}>
                                 <div className="flex flex-col  gap-5">
                                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -182,11 +182,13 @@ export default function Contactus() {
                                             </textarea>
                                         </div>
                                     </div>
-                                    <div className="group flex gap-2 justify-start bg-gradient-to-r from-[#E52020] to-[#A40000] py-2 px-2 rounded-lg items-center w-fit">
-
-                                        <button type="submit" disabled={status === 'Sending...'} className="text-white roboto-slab-medium text-lg cursor-pointer">{status === 'Sending...' ? 'Sending...' : 'Send Message'}</button>
-                                        <TbCircleArrowRightFilled className="text-white text-2xl transform transition-all duration-300 -rotate-45 group-hover:rotate-45" />
+                                    <div className="mx-auto">
+                                        <div className="group flex gap-2 justify-center bg-gradient-to-r from-[#E52020] to-[#A40000] py-2 px-2 rounded-lg items-center w-fit">
+                                            <button type="submit" disabled={status === 'Sending...'} className="text-white roboto-slab-medium text-lg cursor-pointer">{status === 'Sending...' ? 'Sending...' : 'Send Message'}</button>
+                                            <TbCircleArrowRightFilled className="text-white text-2xl transform transition-all duration-300 -rotate-45 group-hover:rotate-45" />
+                                        </div>
                                     </div>
+
                                 </div>
                             </form>
                         </div>

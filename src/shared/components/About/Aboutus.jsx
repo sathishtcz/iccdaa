@@ -25,7 +25,7 @@ function Aboutus() {
             <div className="xl:max-w-[1450px]  md:max-w-[920px] px-3 mx-auto mt-8 lg:mt-10 ">
                 <p className="roboto-slab-semibold text-[#E52020] text-[20px] lg:text-[30px] mb-4 ">Empowering Progress Through Data, Computing, and Algorithms</p>
                 <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-justify leading-[30px] ">The <span className="inter-medium text-gray-900">International Conference on Computing, Data Analytics, and Algorithms</span> is a leading global forum designed to bring together scholars, researchers, industry experts, and practitioners to share their cutting-edge research and practical insights. ICCDAA aims to foster knowledge exchange and collaboration in the fast-evolving domains of computing technologies, advanced data analytics, and modern algorithm design. Join us at ICCDAA to connect, collaborate, and contribute to shaping the future of intelligent computing and data-driven decision-making. </p>
-                <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-25 gap-10 lg:mt-15 mt-10">
+                <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:gap-15 gap-10 lg:mt-15 mt-10">
                     <div className=" lg:block hidden ">
                         <div className="">
                             <img src="/assets/images/About.png" alt="Aboutimage" className='' />

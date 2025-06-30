@@ -40,9 +40,9 @@ export default function Editorboard() {
                                     <img src="/assets/images/User.png" alt="Editor" className="w-27" />
                                 </div>
                                 <div className="flex flex-col gap-2">
-                                    <p className="hanuman-medium text-[#E52020] text-xl">Dr John Smith</p>
-                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Prince Mohammed Bin Fahd University</p>
-                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">India  </span>  </p>
+                                    <p className="hanuman-medium text-[#E52020] text-xl">Vijai Anand Ramar</p>
+                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Delta Dental Insurance Company</p>
+                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">USA  </span>  </p>
                                 </div>
                             </div>
 
@@ -55,9 +55,9 @@ export default function Editorboard() {
                         <div className="bg-white  shadow-[0_0_10px_rgba(0,0,0,0.1)] relative h-full rounded-lg border border-gray-300 px-5 py-8 lg:flex lg:justify-end">
                             <div className="flex lg:flex-row flex-col gap-4 items-center">
                                 <div className="flex flex-col gap-2 lg:order-none order-2 lg:pl-15">
-                                    <p className="hanuman-medium text-[#E52020] text-xl">Dr John Smith</p>
-                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Prince Mohammed Bin Fahd University</p>
-                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">India  </span>  </p>
+                                    <p className="hanuman-medium text-[#E52020] text-xl">Jyothi Bobba</p>
+                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Lead IT Corporation, Illinois</p>
+                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">USA  </span>  </p>
                                 </div>
                                 <div className="lg:order-none order-1 flex-shrink-0">
                                     <img src="/assets/images/User.png" alt="Editor" className="w-27" />
@@ -75,9 +75,9 @@ export default function Editorboard() {
                                     <img src="/assets/images/User.png" alt="Editor" className="w-27" />
                                 </div>
                                 <div className="flex flex-col gap-2">
-                                    <p className="hanuman-medium text-[#E52020] text-xl">Dr John Smith</p>
-                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Prince Mohammed Bin Fahd University</p>
-                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">India  </span>  </p>
+                                    <p className="hanuman-medium text-[#E52020] text-xl">Rajani Priya Nippatla</p>
+                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Kellton Technologies Inc</p>
+                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">USA  </span>  </p>
                                 </div>
                             </div>
 
@@ -90,9 +90,9 @@ export default function Editorboard() {
                         <div className="bg-white  shadow-[0_0_10px_rgba(0,0,0,0.1)] relative h-full rounded-lg border border-gray-300 px-5 py-8 lg:flex justify-end">
                             <div className="flex lg:flex-row flex-col gap-4 items-center">
                                 <div className="flex flex-col items gap-2 lg:order-none order-2 lg:pl-15">
-                                    <p className="hanuman-medium text-[#E52020] text-xl">Dr John Smith</p>
-                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Prince Mohammed Bin Fahd University</p>
-                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">India  </span>  </p>
+                                    <p className="hanuman-medium text-[#E52020] text-xl">Sharadha Kodadi</p>
+                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Infosys</p>
+                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">USA  </span>  </p>
                                 </div>
                                 <div className="lg:order-none order-1 flex-shrink-0">
                                     <img src="/assets/images/User.png" alt="Editor" className="w-27" />

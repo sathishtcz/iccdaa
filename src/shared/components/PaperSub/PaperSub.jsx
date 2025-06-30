@@ -173,8 +173,8 @@ export default function PaperSub() {
                     <div className=" w-full h-full">
 
                         <div className="bg-white shadow-[0_0_10px_rgba(0,0,0,0.15)] p-6 sm:p-10 lg:p-12    h-full rounded-br-lg rounded-tr-lg">
-                            <div className="border-2 border-[#E52020] w-fit px-3 rounded-full py-1 mb-8 ">
-                                <div className="flex gap-2 items-center">
+                            <div className="border-2 border-[#E52020] w-fit px-3 rounded-full py-1 mb-8 mx-auto">
+                                <div className="flex gap-2  items-center">
                                     <GoDotFill className="text-sm text-[#E52020]" />
                                     <h2 className="text-lg font-semibold text-center">Submit your paper</h2>
                                 </div>
@@ -236,13 +236,16 @@ export default function PaperSub() {
                                     <FiUploadCloud className="text-3xl text-[#A40000] mb-2 z-0" />
                                     <p className="z-0">{fileName || "Click to Upload Paper"}</p>
                                 </div>
-                                <button
-                                    type="submit"
-                                    disabled={status === 'Sending...'}
-                                    className="w-full bg-[#A40000] text-white py-3 rounded-xl  font-medium mt-4 cursor-pointer"
-                                >
-                                    {status === 'Sending...' ? 'Submitting...' : 'Submit Your Paper'}
-                                </button>
+                                <div className="text-center">
+                                    <button
+                                        type="submit"
+                                        disabled={status === 'Sending...'}
+                                        className="px-3 bg-[#A40000] text-white py-3 rounded-lg  font-medium cursor-pointer"
+                                    >
+                                        {status === 'Sending...' ? 'Submitting...' : 'Submit Your Paper'}
+                                    </button>
+                                </div>
+
                             </form>
                         </div>
 

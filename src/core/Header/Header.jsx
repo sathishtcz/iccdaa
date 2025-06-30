@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaChevronDown } from "react-icons/fa";
-import { GiHamburgerMenu } from "react-icons/gi";
 import NavItems from "./NavItems";
 import { RiMenu3Fill } from "react-icons/ri";
 
@@ -107,12 +106,12 @@ const Header = () => {
         <div ref={menuRef} className={`w-full fixed top-0 z-20  transition-all duration-300 ${ isActive === "/" ? scrolled ? "bg-gradient-to-r from-[#E52020] to-[#A40000]"  : "bg-fixed" : `bg-white ${scrolled ? "shadow-md" : ""}` }`}>
             <div className="mx-auto w-full xl:max-w-[1450px] md:max-w-[920px] flex items-center justify-between px-3">
                 <div className="py-4">
-                    <Link to="/" className={`text-4xl roboto-slab-bold ${  isActive === "/" ? scrolled ? "text-white" : "text-white" : "text-gray-800" }`}>
+                    {/* <Link to="/" className={`text-4xl roboto-slab-bold ${  isActive === "/" ? scrolled ? "text-white" : "text-white" : "text-gray-800" }`}>
                         ICCDAA
-                    </Link>
-                    {/* <Link to="/">
-                        <img className={`w-40 md:mx-0 mx-auto`} src="/assets/images/ICBOMLOGO.png" alt="logo" />
                     </Link> */}
+                    <Link to="/">
+                        <img className={`w-40 md:mx-0 mx-auto`}   src={isActive === "/" ? "/assets/images/White.png" : "/assets/images/Red.png"} alt="logo" />
+                    </Link>
                 </div>
 
                 <div className="lg:flex hidden items-center">

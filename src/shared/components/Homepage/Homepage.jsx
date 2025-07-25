@@ -19,7 +19,7 @@ function Homepage() {
                   <div className="h-[1.5px] bg-white lg:w-[260px] md:w-[70px] w-[30px]"></div>
                   <div className="h-[1.5px] bg-white lg:w-[260px] md:w-[70px] w-[30px]"></div>
                 </div>
-                <p className="roboto-slab-regular lg:text-[40px] text-[20px] text-white">August 20-25, 2025</p>
+                <p className="roboto-slab-regular lg:text-[40px] text-[20px] text-white">October 7, 2025</p>
                 <div className="space-y-1">
                   <div className="h-[1.5px] bg-white lg:w-[260px] md:w-[70px] w-[30px]"></div>
                   <div className="h-[1.5px] bg-white lg:w-[260px] md:w-[70px] w-[30px]"></div>
@@ -37,7 +37,7 @@ function Homepage() {
                 </div>
               </Link>
               <div>
-                <button className=" text-white roboto-slab-medium text-lg lg:text-2xl border-2 border-white py-2 px-3 rounded-lg hover:bg-white transition-all duration-300 hover:text-gray-800">TamilNadu, Chennai</button>
+                <button className=" text-white roboto-slab-medium text-lg lg:text-2xl border-2 border-white py-2 px-3 rounded-lg hover:bg-white transition-all duration-300 hover:text-gray-800">Singapore</button>
               </div>
             </div>
           </div>
@@ -52,14 +52,14 @@ function Homepage() {
                 <PiCalendarCheckFill className='text-4xl text-white' />
                 <div className="flex flex-col gap-2">
                   <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-gray-200">Date</p>
-                  <p className="inter-semibold sm:text-base md:text-lg lg:text-[16px] text-white">28th to 30th August, 2025</p>
+                  <p className="inter-semibold sm:text-base md:text-lg lg:text-[16px] text-white">October 7, 2025</p>
                 </div>
               </div>
               <div className="flex flex-row items-center gap-2">
                 <IoLocationSharp className='text-4xl text-white' />
                 <div className="flex flex-col gap-2">
                   <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-gray-200">Location</p>
-                  <p className="inter-semibold sm:text-base md:text-lg lg:text-[16px] text-white ">TamilNadu, Chennai</p>
+                  <p className="inter-semibold sm:text-base md:text-lg lg:text-[16px] text-white ">Singapore</p>
                 </div>
               </div>
 
@@ -221,7 +221,7 @@ function Homepage() {
 
 
 
-      <div className="bg-[#FFF4EF] lg:py-10 py-5 lg:mt-15 mt-10">
+      {/* <div className="bg-[#FFF4EF] lg:py-10 py-5 lg:mt-15 mt-10">
         <div className="xl:max-w-[1450px]  md:max-w-[920px] mx-auto px-3">
           <div className="flex flex-col gap-7">
             <div className="border-2 border-[#E52020] w-fit px-3 rounded-full py-1">
@@ -269,7 +269,7 @@ function Homepage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 
@@ -293,7 +293,7 @@ function Homepage() {
                 <PiCalendarCheckFill className='text-4xl text-white' />
                 <div className="flex flex-col gap-2">
                   <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-gray-200">Date</p>
-                  <p className="inter-semibold sm:text-base md:text-lg lg:text-[16px] text-white">28th to 30th August, 2025</p>
+                  <p className="inter-semibold sm:text-base md:text-lg lg:text-[16px] text-white">October 7, 2025</p>
                 </div>
               </div>
             </div>
@@ -302,7 +302,7 @@ function Homepage() {
                 <IoLocationSharp className='text-4xl text-white' />
                 <div className="flex flex-col gap-2">
                   <p className="inter-regular sm:text-base md:text-lg lg:text-[16px] text-gray-200">Location</p>
-                  <p className="inter-semibold sm:text-base md:text-lg lg:text-[16px] text-white">TamilNadu, Chennai</p>
+                  <p className="inter-semibold sm:text-base md:text-lg lg:text-[16px] text-white">Singapore</p>
                 </div>
               </div>
             </div>

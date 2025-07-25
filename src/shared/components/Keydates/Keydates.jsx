@@ -31,12 +31,12 @@ export default function Keydates() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
-            { icon: <BsCalendarEvent />, label: "Abstract Submission Closes", date: "August 10, 2025" },
-            { icon: <BsUpload />, label: "Full Paper Submission Deadline", date: "August 20, 2025" },
-            { icon: <BsCheckCircle />, label: "Acceptance Notification", date: "September 15, 2025" },
-            { icon: <BsClockHistory />, label: "Final Paper Submission", date: "September 30, 2025" },
-            { icon: <BsPersonCheck />, label: "Registration Deadline", date: "September 30, 2025" },
-            { icon: <BsPeople />, label: "Conference Dates", date: "October 24–26, 2025" },
+            { icon: <BsCalendarEvent />, label: "Abstract Submission Closes", date: "September 10, 2025" },
+            { icon: <BsUpload />, label: "Full Paper Submission Deadline", date: "September 15, 2025" },
+            { icon: <BsCheckCircle />, label: "Acceptance Notification", date: "September 23, 2025" },
+            { icon: <BsClockHistory />, label: "Final Paper Submission", date: "September 29, 2025" },
+            { icon: <BsPersonCheck />, label: "Registration Deadline", date: "October 2, 2025" },
+            { icon: <BsPeople />, label: "Conference Dates", date: "October 7, 2025" },
           ].map((item, index) => (
             <div key={index} className="relative bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:shadow-xl transition-all duration-300">
               <div className="absolute top-0 left-0 w-full h-1 bg-[#E52020] rounded-t-lg"></div>
@@ -49,7 +49,7 @@ export default function Keydates() {
       </div>
 
       {/* === FANCY REGISTRATION DETAILS SECTION === */}
-      <div className="xl:max-w-[1450px] md:max-w-[920px] px-3 mx-auto mt-16 lg:mt-20">
+      {/* <div className="xl:max-w-[1450px] md:max-w-[920px] px-3 mx-auto mt-16 lg:mt-20">
         <p className="roboto-slab-semibold text-[#E52020] text-[20px] lg:text-[30px] mb-4">
           Payment & Registration Information
         </p>
@@ -67,16 +67,16 @@ export default function Keydates() {
             { icon: <MdVerifiedUser />, label: "MICR", value: "600229001" },
           ].map((item, index) => (
             <div key={index} className="relative bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:shadow-xl transition-all duration-300">
-              {/* Fancy gradient top bar */}
+            
               <div className="absolute top-0 left-0 w-full h-1 bg-[#E52020] rounded-t-lg"></div>
-              {/* Icon */}
+              
               <div className="text-[#E52020] text-3xl mb-4">{item.icon}</div>
               <p className="inter-medium text-[18px] text-black mb-2">{item.label}</p>
               <p className="inter-regular text-gray-800 text-[16px] break-words">{item.value}</p>
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
     </>
   )

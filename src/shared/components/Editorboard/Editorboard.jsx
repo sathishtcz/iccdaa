@@ -3,6 +3,118 @@ import { Link } from "react-router-dom";
 
 
 export default function Editorboard() {
+
+
+    const teamMembers = [
+        {
+            name: "D. Kayathri Devi",
+            department: "Department of Information Technology and Engineering",
+            university: "Amity University",
+            location: "Uzbekistan"
+        },
+        {
+            name: "T. Ananth Kumar",
+            department: "Department of Computer Science and Engineering",
+            university: "IFET College of Engineering ",
+            location: "India "
+        },
+        {
+            name: "Ijegwa David Acheme",
+            department: "Department of Computer Science",
+            university: "Edo State University",
+            location: "Nigeria"
+        },
+         { name: 'K. Karthika', department: 'Department of Computer Science and Engineering', university: 'Sri Sairam College of Engineering', location: 'India' },
+        {
+            name: "Hansi Gunasinghe",
+            department: "Department of Computing and Information Systems",
+            university: "Sabaragamuwa University of Sri Lanka",
+            location: "Sri Lanka"
+        },
+        {
+            name: "Tehreem Qasim",
+            department: "Department of Robotics and Artificial Intelligence",
+            university: "SZABIST University",
+            location: "Pakistan"
+        }, { name: 'G. Vinodhini', department: 'Department of Information Technology', university: 'Annamalai University', location: 'India' },
+        {
+            name: "Sakshi dua",
+            department: "Department of Computer Applications",
+            university: "Lovely Professional University",
+            location: "India"
+        },
+        {
+            name: "Argha Chandra Dhar",
+            department: "Department of Computer Science and Engineering",
+            university: "Khulna University of Engineering and Technology",
+            location: "Bangladesh"
+        },
+        {
+            name: "Tusar Kanti Dash",
+            department: "Department of Electronics and Communication Engineering",
+            university: "C V Raman Global University",
+            location: "India"
+        },
+        {
+            name: "Dheeraj Kumar Joshi",
+            department: "Department of Mathematics",
+            university: "DIT University",
+            location: "India"
+        },
+        {
+            name: "Idowu Bismark Olabode",
+            department: "Department of Electrical and Information Engineering",
+            university: "Covenant University",
+            location: "Nigeria"
+        },
+        {
+            name: "Hung Nguyen",
+            department: "Department of Information Technology",
+            university: "Nha Trang university",
+            location: "Vietnam"
+        },
+        { name: 'V. Mageshwari', department: 'Department of Computer Science and Engineering', university: 'PSGR Krishnammal College for Women', location: 'India' },
+
+        { name: 'Huiliang Zhao', department: 'Department of Product Design', university: 'Guizhou Minzu University', location: 'China' },
+        { name: 'D. Angeline Benitta', department: 'Department of Computer Applications', university: 'Hindustan Institute of Technology and Science', location: 'India' },
+        {
+            name: "Asghar Ali Shah",
+            department: "Department of Computer Science",
+            university: "Bahria university",
+            location: "Pakistan"
+        },
+        {
+            name: "P. Rajesh",
+            department: "Department of Computer Science and Engineering",
+            university: "Institute of Science and Technolog",
+            location: "India"
+        },
+        {
+            name: "Yogi Pratama",
+            department: "Department of Medical Informatics",
+            university: "Al Insyirah Institute of Health and Technology",
+            location: "Indonesia"
+        },
+        {
+            name: "Mujtaba Korai",
+            department: "Department of Computer Engineering",
+            university: "Gachon University",
+            location: "South Korea"
+        },
+        {
+            name: "Bawar Mohammed Faraj",
+            department: "Department of Information Technology",
+            university: "University of Halabja Computer Science",
+            location: "Iraq"
+        },
+        {
+            name: "Minhaz Uddin Emon",
+            department: "Department of Computer Science",
+            university: "Pattimura University",
+            location: "Indonesia"
+        }
+
+    ];
     return (
         <>
 
@@ -30,78 +142,25 @@ export default function Editorboard() {
             <div className="lg:mt-15 mt-10 bg-[#FFF4EF] py-10">
                 <p className="roboto-slab-semibold text-black text-[20px] lg:text-[30px] text-center mb-10">Meet Our Esteemed Editorial Board</p>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-15 max-w-[65rem] mx-auto px-3">
-
-                    <div className="relative ">
-                        <div className="absolute bg-[#E52020] w-30 h-[calc(100%+15px)] -top-[7px] -left-[7px] rounded-lg"></div>
-                        <div className="bg-white  shadow-[0_0_10px_rgba(0,0,0,0.1)] relative h-full rounded-lg border border-gray-300 px-5 py-8 ">
-                            <div className="flex lg:flex-row flex-col gap-4 items-center">
-                                <div className="">
-                                    <img src="/assets/images/User.png" alt="Editor" className="w-27" />
-                                </div>
+                <div className="max-w-[65rem] mx-auto px-4 ">
+                    <div className="grid grid-cols-2 gap-6">
+                        {teamMembers.map((member, index) => (
+                            <div
+                                key={index}
+                                className="bg-white border-l-4 border-[#E52020] p-6 hover:bg-blue-50 transition-all duration-300 ease-in-out transform hover:-translate-y-1"
+                            >
                                 <div className="flex flex-col gap-2">
-                                    <p className="hanuman-medium text-[#E52020] text-xl">Vijai Anand Ramar</p>
-                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Delta Dental Insurance Company</p>
-                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">USA  </span>  </p>
+                                    <h3 className="hanuman-medium text-[#E52020] text-2xl">Dr. {member.name}</h3>
+                                    <p className="inter-medium text-gray-700">{member.department}</p>
+                                    <p className="inter-medium text-gray-700">
+                                        {member.university}
+                                    </p>
+                                    <p className="inter-medium text-gray-700">
+                                        {member.location}
+                                    </p>
                                 </div>
                             </div>
-
-                            <div className="absolute right-0 top-0 flex justify-center items-center bg-[#E52020]  px-3 py-3 text-3xl rounded-bl-[40px] rounded-tr-lg text-white font-semibold ">01</div>
-                        </div>
-                    </div>
-
-                    <div className="relative ">
-                        <div className="absolute bg-[#E52020] w-30 h-[calc(100%+15px)] -top-[7px] -right-[7px] rounded-lg"></div>
-                        <div className="bg-white  shadow-[0_0_10px_rgba(0,0,0,0.1)] relative h-full rounded-lg border border-gray-300 px-5 py-8 lg:flex lg:justify-end">
-                            <div className="flex lg:flex-row flex-col gap-4 items-center">
-                                <div className="flex flex-col gap-2 lg:order-none order-2 lg:pl-15">
-                                    <p className="hanuman-medium text-[#E52020] text-xl">Jyothi Bobba</p>
-                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Lead IT Corporation, Illinois</p>
-                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">USA  </span>  </p>
-                                </div>
-                                <div className="lg:order-none order-1 flex-shrink-0">
-                                    <img src="/assets/images/User.png" alt="Editor" className="w-27" />
-                                </div>
-                            </div>
-                            <div className="absolute left-0 top-0 flex justify-center items-center bg-[#E52020]  px-3 py-3 text-3xl rounded-br-[40px] rounded-tl-lg text-white font-semibold ">02</div>
-                        </div>
-                    </div>
-
-                    <div className="relative ">
-                        <div className="absolute bg-[#E52020] w-30 h-[calc(100%+15px)] -top-[7px] -left-[7px] rounded-lg"></div>
-                        <div className="bg-white  shadow-[0_0_10px_rgba(0,0,0,0.1)] relative h-full rounded-lg border border-gray-300 px-5 py-8 ">
-                            <div className="flex lg:flex-row flex-col gap-4 items-center">
-                                <div className="">
-                                    <img src="/assets/images/User.png" alt="Editor" className="w-27" />
-                                </div>
-                                <div className="flex flex-col gap-2">
-                                    <p className="hanuman-medium text-[#E52020] text-xl">Rajani Priya Nippatla</p>
-                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Kellton Technologies Inc</p>
-                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">USA  </span>  </p>
-                                </div>
-                            </div>
-
-                            <div className="absolute right-0 top-0 flex justify-center items-center bg-[#E52020]  px-3 py-3 text-3xl rounded-bl-[40px] rounded-tr-lg text-white font-semibold ">03</div>
-                        </div>
-                    </div>
-
-                    <div className="relative ">
-                        <div className="absolute bg-[#E52020] w-30 h-[calc(100%+15px)] -top-[7px] -right-[7px] rounded-lg"></div>
-                        <div className="bg-white  shadow-[0_0_10px_rgba(0,0,0,0.1)] relative h-full rounded-lg border border-gray-300 px-5 py-8 lg:flex justify-end">
-                            <div className="flex lg:flex-row flex-col gap-4 items-center">
-                                <div className="flex flex-col items gap-2 lg:order-none order-2 lg:pl-15">
-                                    <p className="hanuman-medium text-[#E52020] text-xl">Sharadha Kodadi</p>
-                                    <p className="inter-medium text-gray-900 sm:text-base md:text-lg lg:text-[18px">Infosys</p>
-                                    <p className="inter-medium text-md text-gray-900">Country  : <span className="text-gray-600">USA  </span>  </p>
-                                </div>
-                                <div className="lg:order-none order-1 flex-shrink-0">
-                                    <img src="/assets/images/User.png" alt="Editor" className="w-27" />
-                                </div>
-
-                            </div>
-
-                            <div className="absolute left-0 top-0 flex justify-center items-center bg-[#E52020]  px-3 py-3 text-3xl rounded-br-[40px] rounded-tl-lg text-white font-semibold ">04</div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>

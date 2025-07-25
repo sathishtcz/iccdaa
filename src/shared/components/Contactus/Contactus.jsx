@@ -98,11 +98,11 @@ export default function Contactus() {
                     <div className="grid lg:grid-cols-5 grid-cols-1 items-center gap-8">
 
                         <div className="flex flex-col   gap-8 items-center justify-center lg:col-span-2">
-                            <div className="flex flex-col gap-1 items-center">
+                            {/* <div className="flex flex-col gap-1 items-center">
                                 <LiaPhoneVolumeSolid className="text-[#E52020] text-4xl flex-shrink-0" />
                                 <p className="text-gray-600 inter-medium text-lg wrap-anywhere xl:wrap-normal">Call Support Center 24/7</p>
                                 <p className="text-black inter-medium text-lg wrap-anywhere xl:wrap-normal">+91 9745551212</p>
-                            </div>
+                            </div> */}
 
                             <div className="flex flex-col gap-1 items-center">
                                 <IoIosMail className="text-[#E52020] text-4xl flex-shrink-0" />
@@ -113,7 +113,7 @@ export default function Contactus() {
                             <div className="flex flex-col gap-1 items-center">
                                 <IoLocationSharp className="text-[#E52020] text-4xl flex-shrink-0" />
                                 <p className="text-gray-600 inter-medium text-lg">Location</p>
-                                <p className="text-black inter-medium text-lg wrap-anywhere xl:wrap-normal">TamilNadu, Chennai</p>
+                                <p className="text-black inter-medium text-lg wrap-anywhere xl:wrap-normal">Singapore</p>
                             </div>
                         </div>
 

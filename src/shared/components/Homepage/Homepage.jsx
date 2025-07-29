@@ -109,7 +109,7 @@ function Homepage() {
 
               <div className="mt-4 lg:mt-5 flex flex-col gap-6">
                 <p className="inter-medium text-[16px]">Here are a few key highlights of our conference:</p>
-                <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-6">
+                <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6">
                   <div className="flex flex-row gap-3 lg:gap-2 items-center">
                     <img src="/assets/images/point.png" alt="point" className="w-8" />
                     <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px]  ">Global Research Platform</p>
@@ -176,7 +176,7 @@ function Homepage() {
 
             <div className="mt-4 lg:mt-5 flex flex-col gap-6">
               <p className="inter-medium text-[16px]">Here are a few key highlights of our scope:</p>
-              <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-6">
+              <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6">
                 <div className="flex flex-row gap-3 lg:gap-2 items-center">
                   <img src="/assets/images/point.png" alt="point" className="w-8" />
                   <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px]  ">Intelligent Data Analytics</p>

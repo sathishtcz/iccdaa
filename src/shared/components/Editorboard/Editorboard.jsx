@@ -143,7 +143,7 @@ export default function Editorboard() {
                 <p className="roboto-slab-semibold text-black text-[20px] lg:text-[30px] text-center mb-10">Meet Our Esteemed Editorial Board</p>
 
                 <div className="max-w-[65rem] mx-auto px-4 ">
-                    <div className="grid grid-cols-2 gap-6">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
                         {teamMembers.map((member, index) => (
                             <div
                                 key={index}
